@@ -1,4 +1,5 @@
 $navbar-background-color-dark: $body-background-dark !default
+$navbar-box-shadow-size: 0 2px 0 0 !default
 $navbar-box-shadow-color-dark: $background-dark !default
 
 $navbar-item-color-dark: $grey-light !default
@@ -24,6 +25,10 @@ $navbar-dropdown-item-active-color-dark: $link-dark !default
 $navbar-dropdown-item-active-background-color-dark: $background-dark !default
 
 $navbar-divider-background-color-dark: $background-dark !default
+
+$navbar-bottom-box-shadow-size: 0 -2px 0 0 !default
+
+$navbar-breakpoint: $desktop !default
 
 .navbar
   background-color: $navbar-background-color-dark
@@ -140,10 +145,8 @@ a.navbar-item,
 
 .navbar-item
     &:hover
-      background-color: $navbar-tab-hover-background-color
       border-bottom-color: $navbar-tab-hover-border-bottom-color-dark
     &.is-active
-      background-color: $navbar-tab-active-background-color
       border-bottom-color: $navbar-tab-active-border-bottom-color-dark
       color: $navbar-tab-active-color-dark
 
@@ -204,8 +207,6 @@ a.navbar-item,
   .navbar-link
     &.is-active
       color: $navbar-item-active-color-dark
-    &.is-active:not(:hover)
-      background-color: $navbar-item-active-background-color
   .navbar-item.has-dropdown
     &:hover,
     &.is-active
