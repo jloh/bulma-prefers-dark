@@ -33,6 +33,7 @@
     "clean-css-cli": "^4.2.1",
     "node-sass": "^4.11.0",
     "postcss-cli": "^6.1.2",
+    "release-it": "^10.4.0",
     "rimraf": "^2.6.3"
   },
   "scripts": {
@@ -44,5 +45,22 @@
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch"
   },
-  "dependencies": {}
+  "release-it": {
+    "pkgFiles": [
+      "package.json",
+      "package-lock.json"
+    ],
+    "git": {
+      "commitMessage": "Release v${version}",
+      "tagAnnotation": "Release v${version}",
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true,
+      "releaseName": "Release v${version}"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
