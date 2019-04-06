@@ -53,7 +53,9 @@
     "git": {
       "commitMessage": "Release v${version}",
       "tagAnnotation": "Release v${version}",
-      "tagName": "v${version}"
+      "tagName": "v${version}",
+      "commitArgs": "-S",
+      "tagArgs": "-s"
     },
     "github": {
       "release": true,
