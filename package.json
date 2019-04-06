@@ -39,7 +39,7 @@
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
     "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma-prefers-dark.css css/bulma-prefers-dark.css",
-    "build-cleancss": "cleancss -o css/bulma.min.css css/bulma-prefers-dark.css",
+    "build-cleancss": "cleancss -o css/bulma-prefers-dark.min.css css/bulma-prefers-dark.css",
     "build-clean": "rimraf css",
     "build-sass": "node-sass --output-style expanded --source-map true build/bulma-prefers-dark.sass css/bulma-prefers-dark.css",
     "deploy": "npm run build",

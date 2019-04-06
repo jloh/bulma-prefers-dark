@@ -1,26 +1,4 @@
 /* Bulma Prefers Dark  | MIT License | github.com/jloh/bulma-prefers-dark */
-@-webkit-keyframes spinAround {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg);
-  }
-}
-@keyframes spinAround {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-            transform: rotate(359deg);
-  }
-}
-
-/* Bulma Prefers Dark  | MIT License | github.com/jloh/bulma-prefers-dark */
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #17181c;
