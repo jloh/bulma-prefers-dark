@@ -1,29 +1,35 @@
 # bulma-prefers-dark
 
-A Bulma extension that adds support for the `prefers-color-scheme` media query
+![Safari screenshot](.github/safari-screenshot.png)
 
-[![npm](https://img.shields.io/npm/v/bulma-prefers-dark.svg)](https://www.npmjs.com/package/bulma-divider)
-[![npm](https://img.shields.io/npm/dm/bulma-prefers-dark.svg)](https://www.npmjs.com/package/bulma-divider)
+A Bulma extension that adds support for the `prefers-color-scheme: dark` media query
+
+[![npm](https://img.shields.io/npm/v/bulma-prefers-dark.svg)](https://www.npmjs.com/package/bulma-prefers-dark)
+[![npm](https://img.shields.io/npm/dm/bulma-prefers-dark.svg)](https://www.npmjs.com/package/bulma-prefers-dark)
 
 ## Installation
 
 ```
-npm install --save bulma-prefers-dark
+npm install bulma-prefers-dark
 ... Or ...
 yarn add bulma-prefers-dark
 ```
 
-<!-- TODO: Add note about doing unpkg stuff -->
-
 ## Usage
 
-This extension works as-is in combination with Bulma by adding an alternative dark theme via the [`@media (prefers-color-scheme: dark)` scheme](https://caniuse.com/#search=prefers-color-scheme).
+This extension works as-is in combination with Bulma by adding an alternative dark theme via the `@media (prefers-color-scheme: dark)` [media query](https://caniuse.com/#search=prefers-color-scheme).
 
-Include it in your SaSS pipeline and you're good to go:
+Include it in your SaSS pipeline after you've included Bulma and you're good to go:
 
-```sass
+```scss
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../bulma-prefers-dark/bulma-prefers-dark.sass";
+```
+
+Alternatively include it in your HTML via unpkg:
+
+```html
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
 ```
 
 <!-- TODO: Add example sites -->
