@@ -43,5 +43,6 @@
     "build-sass": "node-sass --output-style expanded --source-map true build/bulma-prefers-dark.sass css/bulma-prefers-dark.css",
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch"
-  }
+  },
+  "dependencies": {}
 }
