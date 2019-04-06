@@ -1,6 +1,6 @@
 {
   "name": "bulma-prefers-dark",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.0",
   "description": "Bulma extension to add prefers-color-scheme dark support",
   "main": "bulma-prefers-dark.sass",
   "unpkg": "css/bulma-prefers-dark.css",
