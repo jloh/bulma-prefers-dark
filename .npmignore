@@ -1,0 +1,2 @@
+# Exclude GitHub files from release
+.github
