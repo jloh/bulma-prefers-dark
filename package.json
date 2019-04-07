@@ -60,6 +60,9 @@
     "github": {
       "release": true,
       "releaseName": "Release v${version}"
+    },
+    "scripts": {
+      "beforeStart": "npm run build"
     }
   },
   "publishConfig": {
