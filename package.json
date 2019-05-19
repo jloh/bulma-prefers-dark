@@ -30,7 +30,7 @@
   "devDependencies": {
     "autoprefixer": "9.5.1",
     "bulma": "0.7.4",
-    "clean-css-cli": "4.2.1",
+    "clean-css-cli": "4.3.0",
     "node-sass": "4.11.0",
     "postcss-cli": "6.1.2",
     "release-it": "10.4.0",
