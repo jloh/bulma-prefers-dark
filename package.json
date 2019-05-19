@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/jloh/bulma-prefers-dark#readme",
   "devDependencies": {
-    "autoprefixer": "^9.5.0",
-    "bulma": "^0.7.4",
-    "clean-css-cli": "^4.2.1",
-    "node-sass": "^4.11.0",
-    "postcss-cli": "^6.1.2",
-    "release-it": "^10.4.0",
-    "rimraf": "^2.6.3"
+    "autoprefixer": "9.5.0",
+    "bulma": "0.7.4",
+    "clean-css-cli": "4.2.1",
+    "node-sass": "4.11.0",
+    "postcss-cli": "6.1.2",
+    "release-it": "10.4.0",
+    "rimraf": "2.6.3"
   },
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
