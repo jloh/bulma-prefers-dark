@@ -93,9 +93,12 @@ $label-color-dark: $grey-lighter !default
     &::after
       border-color: $input-arrow-dark
   select
+    +input
     &[disabled]:hover,
     fieldset[disabled] &:hover
       border-color: $input-disabled-border-color-dark
+    option
+      color: $input-color-dark
   // States
   &:not(.is-multiple):not(.is-loading):hover
     &::after
