@@ -31,7 +31,7 @@
     "autoprefixer": "9.5.1",
     "bulma": "0.7.4",
     "clean-css-cli": "4.3.0",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "postcss-cli": "6.1.2",
     "release-it": "10.4.5",
     "rimraf": "2.6.3"
