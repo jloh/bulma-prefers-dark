@@ -63,6 +63,9 @@
     },
     "scripts": {
       "beforeStart": "npm run build"
+    },
+    "hooks": {
+      "after:bump": "npm run build"
     }
   },
   "publishConfig": {
