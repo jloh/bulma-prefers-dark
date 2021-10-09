@@ -1,4 +1,4 @@
-/* Bulma Prefers Dark  | MIT License | github.com/jloh/bulma-prefers-dark */
+/*! Bulma Prefers Dark  | MIT License | github.com/jloh/bulma-prefers-dark */
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #17181c;
@@ -2179,9 +2179,58 @@
   .select:not(.is-multiple):not(.is-loading)::after {
     border-color: #5ea3e4;
   }
+  .select select {
+    background-color: #0a0a0a;
+    border-color: #363636;
+    color: #dbdbdb;
+  }
+  .select select::-moz-placeholder {
+    color: rgba(219, 219, 219, 0.3);
+  }
+  .select select::-webkit-input-placeholder {
+    color: rgba(219, 219, 219, 0.3);
+  }
+  .select select:-moz-placeholder {
+    color: rgba(219, 219, 219, 0.3);
+  }
+  .select select:-ms-input-placeholder {
+    color: rgba(219, 219, 219, 0.3);
+  }
+  .select select:hover, .select select.is-hovered {
+    border-color: #4a4a4a;
+  }
+  .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
+    border-color: #5ea3e4;
+    box-shadow: 0 0 0 0.125em rgba(94, 163, 228, 0.25);
+  }
+  .select select[disabled],
+  fieldset[disabled] .select select {
+    background-color: #242424;
+    border-color: #242424;
+    color: #b5b5b5;
+  }
+  .select select[disabled]::-moz-placeholder,
+  fieldset[disabled] .select select::-moz-placeholder {
+    color: rgba(181, 181, 181, 0.3);
+  }
+  .select select[disabled]::-webkit-input-placeholder,
+  fieldset[disabled] .select select::-webkit-input-placeholder {
+    color: rgba(181, 181, 181, 0.3);
+  }
+  .select select[disabled]:-moz-placeholder,
+  fieldset[disabled] .select select:-moz-placeholder {
+    color: rgba(181, 181, 181, 0.3);
+  }
+  .select select[disabled]:-ms-input-placeholder,
+  fieldset[disabled] .select select:-ms-input-placeholder {
+    color: rgba(181, 181, 181, 0.3);
+  }
   .select select[disabled]:hover,
   fieldset[disabled] .select select:hover {
     border-color: #242424;
+  }
+  .select select option {
+    color: #dbdbdb;
   }
   .select:not(.is-multiple):not(.is-loading):hover::after {
     border-color: #dbdbdb;
