@@ -34,7 +34,7 @@
     "node-sass": "6.0.1",
     "postcss-cli": "9.0.1",
     "release-it": "14.11.6",
-    "rimraf": "3.0.2"
+    "rimraf": "5.0.5"
   },
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
