@@ -2,6 +2,9 @@
 
 ![Safari screenshot](.github/safari-screenshot.png)
 
+> Bulma now supports dark mdoe out of the box, this repo is no longer maintained  
+> See the docs https://bulma.io/documentation/features/dark-mode/
+
 A Bulma extension that adds support for the `prefers-color-scheme: dark` media query
 
 [![npm](https://img.shields.io/npm/v/bulma-prefers-dark.svg)](https://www.npmjs.com/package/bulma-prefers-dark)
