@@ -29,7 +29,7 @@
   "homepage": "https://github.com/jloh/bulma-prefers-dark#readme",
   "devDependencies": {
     "autoprefixer": "10.3.7",
-    "bulma": "0.7.4",
+    "bulma": "0.9.4",
     "clean-css-cli": "5.4.1",
     "node-sass": "6.0.1",
     "postcss-cli": "9.0.1",
